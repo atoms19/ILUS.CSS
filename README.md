@@ -7,8 +7,8 @@ inorder to use ILUS copy paste this to the `head tag` of your html webpage
 ```
 # classes
 in ILUS there are a few `classes` that can entirely change your how your webpage looks
-`pack` class is used to give a margin and paddin
-`list`list class which can be given on a `ul` or `ol` changes how a list looks
-`btn` btn class is used for making buttons look better
-`inp` this class changes the look of input.
-`nav` used alongside `wrap` class to make a cool nav bar
+- `pack` class is used to give a margin and paddin
+- `list`list class which can be given on a `ul` or `ol` changes how a list looks
+- `btn` btn class is used for making buttons look better
+- `inp` this class changes the look of input.
+- `nav` used alongside `wrap` class to make a cool nav bar
