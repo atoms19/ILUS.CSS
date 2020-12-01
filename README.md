@@ -18,7 +18,7 @@ getting ilus into your webpage is too easy
 ilus has been built in such a way that people with toatally no CSS knowledge could use it
 so it's very begginer friendly no need to learn complicated grid layouts and crazy amounts of classes
 
-# all the classes in ilus
+# important classes in ilus
 - `.btn` -makes a regular button a stylish black button
 - `.inp` -makes the input cooler
 - `.nav` -when used on a nav element makes a fixed Nav bar 
@@ -28,3 +28,10 @@ so it's very begginer friendly no need to learn complicated grid layouts and cra
 - `.card` -makes a card
 - `.pack` -used to add a margin and padding to any element
 - `.wrap` -gives the element a big margin bottom pushing the element underneath it down
+
+# positioning classes
+- `.center` -used on the parent element to center the child element
+- `.right` -used on an element to move it to the right
+- `.text-center` -centers the text
+- `.text-right` -aligns the text to right
+
