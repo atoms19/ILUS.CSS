@@ -35,7 +35,7 @@ so it's very begginer friendly no need to learn complicated grid layouts and cra
 - `.text-center` -centers the text
 - `.text-right` -aligns the text to right
 
-#color classes
+# color classes
 ilus has 10 awesome colour classes for you these can be used on any element to change their backgroundcolor
 - `.red`
 - `.lime`
