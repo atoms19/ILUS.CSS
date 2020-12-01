@@ -48,4 +48,12 @@ ilus has 10 awesome colour classes for you these can be used on any element to c
 - `.light`(greyish)
 - `.bright`(white)
 
+# text colours
+- `.text-dark`- sets text color to black
+- `.text-bright`- sets text color to white
+-  `.text-auto`- sets text color to adaptive
+
+
+
+
 
