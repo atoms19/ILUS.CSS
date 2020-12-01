@@ -64,6 +64,9 @@ ilus has 10 awesome colour classes for you these can be used on any element to c
 - `.text-bright`- sets text color to white
 -  `.text-auto`- sets text color to adaptive
 
+
+#[example >>>](https://code.sololearn.com/W4p7Bm8GDqL2/#html)
+
 ## done,you are ready for programing with ilus.css
 # 👍👍👍
 
