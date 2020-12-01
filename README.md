@@ -14,3 +14,17 @@ getting ilus into your webpage is too easy
 ```
 
 **just copy this and paste it on the head tag of your html file and you have successfully completed all the steps necessary for getting ilus😀**
+## begginer friendly
+ilus has been built in such a way that people with toatally no CSS knowledge could use it
+so it's very begginer friendly no need to learn complicated grid layouts and crazy amounts of classes
+
+# all the classes in ilus
+- `.btn` -makes a regular button a stylish black button
+- `.inp` -makes the input cooler
+- `.nav` -when used on a nav element makes a fixed Nav bar 
+- `.img` -fixes images sizing issues
+- `.sharp` -turns the border radius to none
+- `.list` -when used on a up/ol element, makes it epic looking
+- `.card` -makes a card
+- `.pack` -used to add a margin and padding to any element
+- `.wrap` -gives the element a big margin bottom pushing the element underneath it down
