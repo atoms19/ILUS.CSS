@@ -18,6 +18,17 @@ getting ilus into your webpage is too easy
 ilus has been built in such a way that people with toatally no CSS knowledge could use it
 so it's very begginer friendly no need to learn complicated grid layouts and crazy amounts of classes
 
+## everything is already done for you👍
+ilus automatically sets the font family to a very bellowed font
+it also sets the background color to a unique tint of white that is very well received by the users
+it also removes the annoying extra margin
+
+
+# Documentation
+
+
+
+
 # important classes in ilus
 - `.btn` -makes a regular button a stylish black button
 - `.inp` -makes the input cooler
@@ -53,7 +64,8 @@ ilus has 10 awesome colour classes for you these can be used on any element to c
 - `.text-bright`- sets text color to white
 -  `.text-auto`- sets text color to adaptive
 
-
+## done,you are ready for programing with ilus.css
+# 👍👍👍
 
 
 
