@@ -1,0 +1,21 @@
+@mixin setBackgroundColor($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
+
+@mixin setBtn($color, $class) {
+    .btn-#{$class} {
+        @extend %btn;
+        @include setBackgroundColor(($color));
+    }
+
+    .btn-#{$class}:hover{
+        @include setBackgroundColor(lighten($color, 10));
+    }
+}
+
+@mixin createText($color, $class) {
+    .text-#{$class} {
+        color: $color;
+    }
+}
