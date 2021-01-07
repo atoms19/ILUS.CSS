@@ -138,7 +138,6 @@ ol,ul.list{
     -webkit-tap-highlight-color: transparent;
 }
 
-/*positioning-----------*/
 .right{
     float:right;
 }
@@ -149,8 +148,6 @@ ol,ul.list{
     display:grid;
     place-items:center;
 }
-
-/*text---------------*/
 
 .text-center{
     text-align:center;
@@ -165,7 +162,6 @@ ol,ul.list{
     color:rgba(255, 255, 255, 0.555);
 }
 
-/*fonts--------------*/
 .font-2{
     font-family: 'Open Sans', sans-serif;
 }
@@ -176,7 +172,6 @@ ol,ul.list{
     font-family: 'Cinzel', serif;
 }
 
-/*utilities------*/
 hr{
     height:3px;
     background-color:#ccc;

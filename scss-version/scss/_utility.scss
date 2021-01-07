@@ -1,0 +1,32 @@
+@for $number from 1 to 10 {
+	.p-#{$number} {
+		padding: #{$number}rem;
+	}
+	.pt-#{$number} {
+		padding-top: #{$number}rem;
+	}
+	.pb-#{$number} {
+		padding-bottom: #{$number}rem;
+	}
+	.pr-#{$number} {
+		padding-right: #{$number}rem;
+	}
+	.pl-#{$number} {
+		padding-left: #{$number}rem;
+	}
+	.m-#{$number} {
+		margin: #{$number}rem;
+	}
+	.mt-#{$number} {
+		margin-top: #{$number}rem;
+	}
+	.mb-#{$number} {
+		margin-bottom: #{$number}rem;
+	}
+	.mr-#{$number} {
+		margin-right: #{$number}rem;
+	}
+	.ml-#{$number} {
+		margin-left: #{$number}rem;
+	}
+}
