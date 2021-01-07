@@ -56,7 +56,6 @@ body {
 /*pack------------------*/
 .pack{
    padding:1rem; 
-   
 }
 
 /*btn--------------------*/
@@ -73,7 +72,6 @@ body {
     outline:none;
     cursor:pointer;
      -webkit-tap-highlight-color: transparent;
-   
 }
 .btn:active{
     transform:scale(0.9);
@@ -92,7 +90,7 @@ body {
 .img{
     width:100%;
     border-radius:7px;
-    marin:auto;
+    margin:auto;
 }
 .bg-img{
   background-repeat: no-repeat;
