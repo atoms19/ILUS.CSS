@@ -57,8 +57,8 @@ ol,ul.list{
     margin:0.71rem 0;
     font-size:1rem;
     border-radius:7px;
-    border:1px solid var(--grey);
-    box-shadow:inset 0px 0px 2px var(--dark);
+    border:1px solid $grey;
+    box-shadow:inset 0px 0px 2px $dark;
     
 }
 
@@ -69,15 +69,15 @@ ol,ul.list{
     background-color:white;
     border-radius:6px;
     overflow:hidden ;
-    box-shadow:inset 0px 0px 2px var(--dark);
+    box-shadow:inset 0px 0px 2px $dark;
 }
 .slider::-webkit-slider-thumb{
     -webkit-appearance:none;
     width:15px;
     height:2rem;
-    background:var(--lime);
+    background:$lime;
     border-radius:6px;
-    box-shadow:-409px 0 0 400px var(--green);
+    box-shadow:-409px 0 0 400px $green;
 }
 .nav{
     position:fixed;
@@ -106,11 +106,11 @@ ol,ul.list{
     height:100%;
     position:fixed;
     z-index:5000;
-    background-color:var(--night);
+    background-color:$night;
     color:white;
     left:0;
     top:0;
-    box-shadow:3px 0px 7px var(--dark);
+    box-shadow:3px 0px 7px $dark;
     transition:width 0.5s;
     overflow:hidden ;
     padding-right:0;
