@@ -87,7 +87,6 @@ a{
     transition:0.1s;
     cursor:pointer;
      -webkit-tap-highlight-color: transparent;
-   
 }
 .btn:active{
     transform:scale(0.9);
