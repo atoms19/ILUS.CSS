@@ -16,7 +16,10 @@ getting ilus into your webpage is too easy
 ```html
 <link href="https://raw.githack.com/atoms19/ILUS.CSS/main/ILUS2.min.css" rel="stylesheet">
 ```
-
+# ilus 3
+```html
+<link href="https://raw.githack.com/atoms19/ILUS.CSS/main/ILUS3.min.css" rel="stylesheet">
+```
 
 
 **just copy this and paste it on the head tag of your html file and you have successfully completed all the steps necessary for getting ilus😀**
