@@ -1,31 +1,23 @@
 # ILUS.CSS
 
-## welcome to ILUS.Css
 ilus.css is a simple CSS library for making your webpage looks nice while cutting down your work massively
-## no more confusion😉
-unlike other Frameworks ilus.css doesn't use complicated class names we like to keep it simple and small.
-## fast as heck🏎️
-ilus is fast because of its compact size and structure it takes less time to load and it has zero dependencies
+
 ##getting started
 getting ilus into your webpage is too easy 
 
 ```html
- <link href="https://rawcdn.githack.com/atoms19/ILUS.CSS/387f494e693593d959a3aa9ddec425e8537e52cb/ILUS.css" rel="stylesheet"></link>
+   <link href="https://cdn.jsdelivr.net/gh/atoms19/ILUS.CSS/ILUS5.min.css" rel="stylesheet">
 ```
 # ilus 2 
 ```html
-<link href="https://raw.githack.com/atoms19/ILUS.CSS/main/ILUS2.min.css" rel="stylesheet">
-```
-# ilus 3
-```html
-<link href="https://raw.githack.com/atoms19/ILUS.CSS/main/ILUS3.min.css" rel="stylesheet">
-```
+  <link href="https://cdn.jsdelivr.net/gh/atoms19/ILUS.CSS/ILUS2.min.css" rel="stylesheet">
+``
 
+**just copy this and paste it on the head tag of your html file and you have successfully completed all the steps necessary for getting ilus**
 
-**just copy this and paste it on the head tag of your html file and you have successfully completed all the steps necessary for getting ilus😀**
 ## begginer friendly
 ilus has been built in such a way that people with toatally no CSS knowledge could use it
-so it's very begginer friendly no need to learn complicated grid layouts and crazy amounts of classes
+so it's very begginer friendly 
 
 ## everything is already done for you👍
 ilus automatically sets the font family to a very bellowed font
@@ -77,7 +69,7 @@ ilus has 10 awesome colour classes for you these can be used on any element to c
 #[example >>>](https://code.sololearn.com/W4p7Bm8GDqL2/#html)
 
 ## done,you are ready for programing with ilus.css
-# 👍👍👍
+#
 
 
 
