@@ -1,0 +1,38 @@
+@mixin flex ($type: flex, $justify: center, $align: center, $direction: column) {
+   display: $type;
+   justify-content: $justify;
+   align-items: $align;
+   flex-direction: $direction;
+}
+
+@mixin backgroundImage ($image, $size, $position) {
+   background-image: $image;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: $position;
+   background-size: $size;
+}
+
+@mixin colors ($colorName, $colorValue) {
+   .outline-#{$colorName}
+   {
+      border: 2px solid #{$colorValue};
+      background: transparent;
+      color: #{$colorValue};
+   }
+   .#{$colorName}
+   {
+      background-color: #{$colorValue};
+      color: setColor($colorValue);
+   }
+   .text-#{$colorName}
+   {
+      color: #{$colorValue};
+   }
+}
+
+@mixin resp ($max_min, $ratio) {
+   @media (#{$max_min}-width: #{$ratio}) {
+      @content;
+   }
+}
