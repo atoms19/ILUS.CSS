@@ -1,0 +1,140 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+@import "resets";
+@import "elements";
+@import "forms";
+@import "specials";
+@import "utilities";
+@import "reponsiveness";
+
+@keyframes fade
+{
+    from
+    {
+		opacity: 0;
+	}
+    to
+    {
+		opacity: 1;
+	}
+}
+
+@keyframes zoom
+{
+    from
+    {
+		transform: scale(0);
+	}
+    to
+    {
+		transform: scale(1);
+	}
+}
+
+@keyframes spin
+{
+    to
+    {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes left
+{
+    from
+    {
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+    to
+    {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes right
+{
+    from
+    {
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+	}
+    to
+    {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes down
+{
+    from
+    {
+		transform: translate3d(0, 100%, 0);
+		visibility: visible;
+	}
+    to
+    {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes top
+{
+    from
+    {
+		transform: translate3d(0, -100%, 0);
+		visibility: visible
+	}
+    to
+    {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes flip
+{
+    from
+    {
+		transform: rotateX(90deg);
+	}
+    to
+    {
+		transform: rotateX(0);
+	}
+}
+
+@keyframes jelly
+{
+	from,
+    to
+    {
+		transform: scale(1, 1);
+	}
+    25%
+    {
+		transform: scale(.9, 1.1);
+	}
+    50%
+    {
+		transform: scale(1.1, .9);
+	}
+    75%
+    {
+		transform: scale(.95, 1.05);
+	}
+}
+
+@keyframes loader
+{
+    from
+    {
+		opacity: 1;
+		transform: scale (1);
+	}
+    to
+    {
+		opacity: .21;
+		transform: scale(1.5);
+	}
+}

@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Comfortaa:wght@500&family=Montserrat&family=Roboto:wght@300;400&display=swap);
+
+*,
+* *
+{
+    margin: 0;
+    padding: 0;
+    color: lighten($dark, 5.5%);
+    box-sizing: border-box;
+    user-select: none;
+    outline: none;
+    border: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Roboto", sans-serif;
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+}
+
+body
+{
+    padding: 1rem;
+    background-color: lighten($dark, 82.5%);
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
