@@ -1,8 +1,0 @@
-@function setColor($arg)
-{
-    @if (lightness($arg) > 70) {
-        @return #000;
-    } @else {
-        @return #fff;
-    }
-}
