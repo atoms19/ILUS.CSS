@@ -84,7 +84,7 @@
     from
     {
 		transform: translate3d(0, -100%, 0);
-		visibility: visible
+		visibility: visible;
 	}
     to
     {
@@ -113,15 +113,15 @@
 	}
     25%
     {
-		transform: scale(.9, 1.1);
+		transform: scale(0.9, 1.1);
 	}
     50%
     {
-		transform: scale(1.1, .9);
+		transform: scale(1.1, 0.9);
 	}
     75%
     {
-		transform: scale(.95, 1.05);
+		transform: scale(0.95, 1.05);
 	}
 }
 
@@ -134,7 +134,7 @@
 	}
     to
     {
-		opacity: .21;
+		opacity: 0.21;
 		transform: scale(1.5);
 	}
 }
