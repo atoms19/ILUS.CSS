@@ -1,7 +1,7 @@
 const sassScript = document.createElement("script");
 sassScript.src = "https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.12/sass.sync.min.js";
 const ILUSScript = document.createElement("link");
-ILUSScript.href = "main.scss";
+ILUSScript.href = "./main.scss";
 
 const head = sassScript + ILUSScript;
 
