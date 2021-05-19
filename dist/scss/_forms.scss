@@ -1,0 +1,143 @@
+.inp
+{
+	outline: 0;
+	width: 95%;
+	padding: 0.4rem;
+	margin: 0.71rem 0;
+	font-size: 1rem;
+	border-radius: 7px;
+	border: 1px solid $grey;
+    box-shadow: inset 0 0 2px $auto;
+    &:focus
+    {
+        border-color: darken($night, 100%);
+        box-shadow: inset 0 0 2px $night;
+    }
+}
+
+textarea
+{
+    height: 100px;
+}
+
+.slider
+{
+	width: 100%;
+	height: 1.2rem;
+	background-color: darken($light, 2.5%);
+	border-radius: 6px;
+    overflow: hidden;
+    appearance: none;
+	margin: 0.5rem;
+    box-shadow: inset -1px 2px 5px rgba(0, 0, 0, .2);
+    &::-webkit-slider-thumb
+    {
+        appearance: none;
+	    width: 15px;
+	    height: 19px;
+	    border-radius: 50%;
+	    border: 3px solid $blue;
+	    background: lighten($dark, 100%);
+	    border-radius: 6px;
+	    box-shadow: -5000px 0 0 4994px $blue;
+    }
+    &[alert]::-webkit-slider-thumb
+    {
+        box-shadow: -5000px 0 0 4994px $apple;
+	    border-color: $apple;
+    }
+    &[victory]::-webkit-slider-thumb
+    {
+        box-shadow: -5000px 0 0 4994px $lime;
+	    border-color: $lime;
+    }
+    &[warn]::-webkit-slider-thumb
+    {
+        box-shadow: -5000px 0 0 4994px $gold;
+	    border-color: $gold;
+    }
+}
+
+.toggle
+{
+	width: 60px;
+	height: 30px;
+	-webkit-appearance: none;
+	background-color: darken($light, 2.5%);
+	border-radius: 25px;
+	transition: 0.1s;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, .4);
+	position: relative;
+    transform: scale(0.78);
+    &::before
+    {
+        content: '';
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 50%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    background: lighten($night, 100%);
+	    transform: scale(1.1);
+	    transition: 0.1s;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+        &:checked
+        {
+            left: 30px;
+        }
+    }
+    &:checked
+    {
+        background-color: $blue;
+    }
+    &[mini]::before
+    {
+        transform: scale(0.7);
+        box-shadow: 0 0 0 transparent;
+    }
+    &[victory]:checked
+    {
+        background-color: $lime;
+    }
+    &[warn]:checked
+    {
+        background-color: $gold;
+    }
+    &[alert]:checked
+    {
+        background-color: $red;
+    }
+}
+
+.radio
+{
+    position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	appearance: none;
+	border: 4px solid $grey;
+	transition: 0.1s;
+    transform: scale(0.78);
+    &:checked
+    {
+        background: radial-gradient($blue 50%, darken($night, 100%) 50%);
+	    border-color: $blue;
+    }
+    &[alert]:checked
+    {
+        background: radial-gradient($apple 50%, darken($night, 100%) 50%);
+	    border-color: $apple;
+    }
+    &[victory]:checked
+    {
+        background: radial-gradient($lime 50%, darken($night, 100%) 50%);
+	    border-color: $lime;
+    }
+    &[warn]:checked
+    {
+        background: radial-gradient($gold 50%, darken($night, 100%) 50%);
+	    border-color: $gold;
+    }
+}
