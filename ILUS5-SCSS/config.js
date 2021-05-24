@@ -24,7 +24,8 @@ sassScript.src = "https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.12/sass.syn
 document.head.appendChild(sassScript);
 
 onload = () => {
-   var scss = ""; document.querySelectorAll("style[fetched]").forEach(file => {
+   var scss = "";
+   document.querySelectorAll("style[fetched]").forEach(file => {
         scss += file.innerText;
     });
     Sass.compile(scss, res => {
