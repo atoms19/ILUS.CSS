@@ -432,7 +432,7 @@ background:var(--lighterBackground);
 .inp:focus{
     
     border-color:var(--primary);
-    border-width:0.15rem;
+    border-width:2px;
     
 }
 .inp.error{
@@ -1187,4 +1187,4 @@ font-weight:700;
 }
 .glass-dark{
   background-color:rgba(12,12,13,0.8);
-  color:rg
+  color:rgba(2
